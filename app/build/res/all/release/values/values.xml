@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/cloudkicker/Projects/meetyou-android/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Meet You</string>
+    <string name="menu_blogs">Блоги</string>
+    <string name="menu_events">События</string>
+    <string name="menu_places">Места</string>
+    <!-- From: file:/home/cloudkicker/Projects/meetyou-android/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="fragment_text">
+        <item name="android:textColor">#ffacacac</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>
