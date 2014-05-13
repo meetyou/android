@@ -22,22 +22,6 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
     </issue>
 
     <issue
-        id="GradleDependency"
-        severity="Warning"
-        message="A newer version of com.android.support:support-v4 than 19.0.+ is available: 19.1.0"
-        category="Correctness"
-        priority="4"
-        summary="Looks for old or obsolete Gradle library dependencies"
-        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
-        errorLine1="    compile &apos;com.android.support:support-v4:19.0.+&apos;"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/home/cloudkicker/Projects/meetyou-android/app/build.gradle"
-            line="4"
-            column="5"/>
-    </issue>
-
-    <issue
         id="GradleOverrides"
         severity="Warning"
         message="This versionCode value (1) is not used; it is always overridden by the value specified in the Gradle build script (1000)"

@@ -15,9 +15,7 @@ out/
 
 # Gradle files
 .gradle/
-
-!build/
-build/*
+build/
 !build/apk/
 
 # Project files
