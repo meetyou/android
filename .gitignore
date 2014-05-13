@@ -15,7 +15,7 @@ out/
 
 # Gradle files
 .gradle/
-build/
+#build/
 
 # Project files
 *.iml
